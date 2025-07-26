@@ -9,7 +9,10 @@ function agregarAmigo(){
     if(!validarNombre(nombre)){
         alert('Por favor, inserte un nombre.');
     }else{
-        amigos.push(nombre);
+        if(!amigos.includes(nombre)){
+            //para evitar el duplicados del nombre
+            amigos.push(nombre);
+        }
     }
     limpiarCampoEntrada();
     actualizarListaAmigos();
@@ -35,6 +38,7 @@ function actualizarListaAmigos(){
         lista.appendChild(actual);
     });
 }
+
 
 function sortearAmigo(){
     if(amigos.length === 0){
