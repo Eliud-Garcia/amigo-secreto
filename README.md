@@ -12,5 +12,5 @@
 
 **Descarga**
 
-*Para poder usar este juego, puedes descargar o clonar este repositorio, los documentos importantes estan en la carpeta <b>src</b>, puedes abrirla con visual studio code y darle un vistado*
+*Para poder usar este juego, puedes descargar o clonar este repositorio, los documentos importantes están en la carpeta <b>src</b>, puedes abrirla con visual studio code y darle un vistado*
 
